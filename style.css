@@ -2,20 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-html,body{
-    height: 100%;
-    width: 100%;
-    
-}
-.page1{
-    height: 100%;
-    width: 100%;
-    background-color: lightblue;
 
 }
-#box{
-    height: 300px;
-    width: 300px;
-    background-color: crimson;
+body{
+    height: 100%;
+    width: 100%;
+    background: rgba(225, 225, 153, 0.598);
+}
+h1{
+    font-size: 10vw;
+    color: red;
+}
+h2{
+    font-size: 7vw;
+    color: green;
+}
+h3{
+    font-size: 4vw;
+    color: purple;
 }

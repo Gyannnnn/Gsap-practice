@@ -1,10 +1,15 @@
-
-gsap.to("#box",{
-    x:800,
-    y:200,
-    duration:2,
-    delay:1,
-    backgroundColor:"green",
-    rotate:34,
-    scale:0.5
+var gyan =   gsap.timeline();
+gyan.to("h1",{
+    x:500,
+    duration:2
+    
+    
+})
+gyan.to("h2",{
+    x:500,
+    duration:2
+})
+gyan.to("h3",{
+    x:500,
+    duration:2
 })
